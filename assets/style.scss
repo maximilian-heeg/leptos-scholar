@@ -1,0 +1,24 @@
+body {
+    font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+main {
+    margin: 3em;
+    width: 15em;
+}
+
+pre,
+input {
+    width: 100%;
+    background-color: #fafafa;
+    border-color: #cdcdcd;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0.2em;
+    padding: 0.2em;
+
+    &:focus {
+        background-color: #dae6f0;
+        border-color: #4a6d94;
+    }
+}

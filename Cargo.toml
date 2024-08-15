@@ -1,0 +1,14 @@
+[package]
+name = "leptos-scholar"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+leptos = { version = "0.6.*", features = ["csr", "nightly"] }
+anyhow = "1.0.86"
+scraper = "0.20.0"
+serde = { version = "1.0.208", features = ["derive"] }
+thiserror = "1.0.63"
+getrandom = { version = "0.2", features = ["js"] }
+reqwest = "0.12.5"
+serde_yaml = "0.9.34"
