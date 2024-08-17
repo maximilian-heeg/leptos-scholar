@@ -51,7 +51,7 @@ enum ScraperError {
 /// * `Result<Html>` - The parsed HTML document
 async fn fetch_page(authorid: &str) -> Result<Html> {
     let response = reqwest::get(&format!(
-        "https://scholar.google.com/citations?user={authorid}",
+        "https://corsproxy.io/?https://scholar.google.com/citations?user={authorid}",
     ))
     .await?;
 
